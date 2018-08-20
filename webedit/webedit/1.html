@@ -1,0 +1,17 @@
+
+<html>
+    <head>
+        <title>Editing.....</title>
+    </head>
+    <body>
+        <form action="save.cgi" method="post">
+            <strong>File:</strong>%s<br />
+            <input type="hidden" value="%s" name="filename" />
+            <strong>Password:</strong><br />
+            <input name="password" type="password" /><br />
+            <strong>Text:</strong><br />
+            <textarea name="text" cols="40" rows="20">%s</textarea ><br />
+            <input type="submit" value="Save" />
+        </form>
+    </body>
+</html>
